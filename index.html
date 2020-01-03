@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
 <head>
   <meta charset="utf-8">
   <title>Cats For Sale</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script src="https://kit.fontawesome.com/9c2bc9487e.js" crossorigin="anonymous"></script>
-
 </head>
 
 <body>
@@ -29,15 +27,15 @@
   </header>
   <main>
     <section class="information">
-      <h1>Adorable tiny fluffy angels</h1>
-      <form class="email" action="index.html" method="post">
-        <input type="email" required name="email" placeholder="Enter your email">
-        <button type="button" name="button">submit</button>
+      <h2>Adorable tiny fluffy angels</h2>
+      <form id="form" class="email" action="index.html" method="post">
+        <input id="email" type="email" required name="email" placeholder="Enter your email">
+        <input id="submit" type="submit" name="button" action="https://www.freecodecamp.com/email-submit"></input>
       </form>
-      <div class="benefits">
+      <div class="benefits" id="benefits">
         <div class="row">
           <div class="col-left">
-            <i class="fas fa-camera fa-2x"></i>
+            <i class="fas fa-camera fa-3x"></i>
           </div>
           <div class="col-right">
             <h2>Cat Benefits</h2>
@@ -47,7 +45,7 @@
           </div>
         <div class="row">
           <div class="col-left">
-            <i class="fas fa-camera fa-2x"></i>
+            <i class="fas fa-cat fa-3x"></i>
           </div>
           <div class="col-right">
             <h2>Cat Benefits</h2>
@@ -57,7 +55,7 @@
           </div>
         <div class="row">
           <div class="col-left">
-            <i class="fas fa-camera fa-2x"></i>
+            <i class="fas fa-paw fa-3x"></i>
           </div>
           <div class="col-right">
             <h2>Cat Benefits</h2>
@@ -65,31 +63,35 @@
               feugiat nibh sed pulvinar proin gravida hendrerit. Cursus mattis molestie a iaculis at erat pellentesque adipiscing. Risus viverra adipiscing at in tellus integer. </p>
             </div>
           </div>
-
       </div>
       <div id="tricks" class="video">
-        <iframe  src="https://www.youtube.com/embed/pvEuYcM0j6M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe id="video"  src="https://www.youtube.com/embed/pvEuYcM0j6M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <div id="pricing" class="cards">
         <div class="card">
           <h3>Brown Cat</h3>
           <h4>$25</h4>
           <p>lorem ipsum lorem ipsum</p>
-          <button type="button" name="button">Select</button>
+          <p>lorem ipsum lorem ipsum</p>
+          <p>lorem ipsum lorem ipsum</p>
+          <button type="submit" name="button">Select</button>
         </div>
         <div class="card">
           <h3>Orange Cat</h3>
-          <h4>$25</h4>
+          <h4>$250</h4>
           <p>lorem ipsum lorem ipsum</p>
-          <button type="button" name="button">Select</button>
+          <p>lorem ipsum ipsum</p>
+          <p>lorem ipsum ipsum</p>
+          <button type="submit" name="button">Select</button>
         </div>
         <div class="card">
           <h3>Black Cat</h3>
-          <h4>$25</h4>
+          <h4>$75</h4>
           <p>lorem ipsum lorem ipsum</p>
-          <button type="button" name="button">Select</button>
+          <p>lorem ipsum  dolor</p>
+          <p>lorem ipsum lorem ipsum</p>
+          <button type="submit" name="button">Select</button>
         </div>
-
       </div>
     </section>
   </main>
@@ -97,9 +99,10 @@
     <div class="footer-links">
       <a href="#">Privacy</a>
       <a href="#">Contact</a>
-      <a href="#">Terms</a>
+      <a href="#">Terms</a><br />
+      <span>Copyright 2019 M Parrillo</span>
     </div>
-    <p>Copyright 2019 M Parrillo</p>
+
   </footer>
 </body>
 
