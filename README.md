@@ -1,2 +1,3 @@
 # Responsive Landing Page
-Using CSS Flexbox and Media Queries
+## Part of the FreeCodeCamp curriculum
+- Responsive withs CSS Flexbox and Media Queries
